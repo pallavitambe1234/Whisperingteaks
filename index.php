@@ -76,10 +76,10 @@
 								<div class="a-col">
 									<section>
 										<select class="cs-select cs-skin-border">
-											<option value="" disabled selected>Select Hotel</option>
-											<option value="email">Luxe Hotel</option>
-											<option value="twitter">Deluxe Hotel</option>
-											<option value="linkedin">Five Star Hotel</option>
+											<option value="" disabled selected>Select Rooms</option>
+											<option value="email">Luxe Rooms</option>
+											<option value="twitter">Deluxe Rooms</option>
+											<option value="linkedin">Five Star Rooms</option>
 										</select>
 									</section>
 								</div>
