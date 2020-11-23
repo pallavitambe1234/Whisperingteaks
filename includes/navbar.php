@@ -1,30 +1,28 @@
-<nav class="tabs-nav">
-							<a href="#" class="active" data-tab="tab1">
-								<i class="flaticon-restaurant icon"></i>
-								<span>Restaurant</span>
-							</a>
-							<a href="#" data-tab="tab2">
-								<i class="flaticon-cup icon"></i>
-								<span>Bar</span>
-							</a>
-							<a href="#" data-tab="tab3">
-
-								<i class="flaticon-car icon"></i>
-								<span>Pick-up</span>
-							</a>
-							<a href="#" data-tab="tab4">
-
-								<i class="flaticon-swimming icon"></i>
-								<span>Swimming Pool</span>
-							</a>
-							<a href="#" data-tab="tab5">
-
-								<i class="flaticon-massage icon"></i>
-								<span>Spa</span>
-							</a>
-							<a href="#" data-tab="tab6">
-
-								<i class="flaticon-bicycle icon"></i>
-								<span>Gym</span>
-							</a>
-						</nav>
+<nav class="navbar navbar-expand-lg navbar fixed-top  navbar-light bg-light">
+		 		<a class="navbar-brand" href="#Welcome">
+    				<img src="images/logo.png" width="50" height="50" class="d-inline-block" alt=""> Whispering Teaks
+		 		</a>
+		 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+		    		<span class="navbar-toggler-icon"></span>
+		 		</button>
+			  	<div class="collapse navbar-collapse" id="navbarText">
+			    	<ul class="navbar-nav ml-auto">
+			      		<li class="nav-item">
+			        		<a class="nav-link" href="index.php">Welcome</a>
+			      		</li>
+					    <li class="nav-item">
+					    	<a class="nav-link" href="Restaurant.php">Restaurant</a>
+					    </li>
+					    <li class="nav-item">
+					    	<a class="nav-link" href="menu.php">Menu</a>
+					    </li>
+					    <li class="nav-item">
+					    	<a class="nav-link" href="Reservation.php">Reservation</a>
+					    </li>
+					    <li class="nav-item">
+					    	<a class="nav-link" href="location.php">Our Location</a>
+					    </li>
+					   
+				    </ul>
+				</div>
+			</nav>

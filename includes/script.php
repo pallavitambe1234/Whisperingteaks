@@ -1,25 +1,10 @@
-<script src="js/jquery-2.1.4.min.js"></script>
-		<!-- Dropdown Menu -->
-		<script src="js/hoverIntent.js"></script>
-		<script src="js/superfish.js"></script>
-		<!-- Bootstrap -->
-		<script src="js/bootstrap.min.js"></script>
-		<!-- Waypoints -->
-		<script src="js/jquery.waypoints.min.js"></script>
-		<!-- Counters -->
-		<script src="js/jquery.countTo.js"></script>
-		<!-- Stellar Parallax -->
-		<script src="js/jquery.stellar.min.js"></script>
-		<!-- Owl Slider -->
-		<!-- // <script src="js/owl.carousel.min.js"></script> -->
-		<!-- Date Picker -->
-		<script src="js/bootstrap-datepicker.min.js"></script>
-		<!-- CS Select -->
-		<script src="js/classie.js"></script>
-		<script src="js/selectFx.js"></script>
-		<!-- Flexslider -->
-		<script src="js/jquery.flexslider-min.js"></script>
-
-		<script src="js/custom.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-	<script src="js/google_map.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+		<script type="text/javascript" src="js/map.js"></script>
+		<script type="text/javascript" src="js/smooth-scroll.js"></script>
+		<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+		<script type="text/javascript" src="js/image-effect.js"></script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFZjOV0KA68G2YAh-rn7I3qKqCQEh_Ja0&callback=myMap">
+	    </script>

@@ -1,419 +1,234 @@
-
-pa<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<?php include 'includes/head.php';?>
-<body>
-	<div id="fh5co-wrapper">
-		<div id="fh5co-page">
-			<div id="fh5co-header">
-
-				<?php include 'includes/header.php';?>
-			</div>
-			<!-- end:fh5co-header -->
-			<aside id="fh5co-hero" class="js-fullheight">
-				<div class="flexslider js-fullheight">
-					<ul class="slides">
-						<li style="background-image: url(images/slider1.jpg);">
-							<div class="overlay-gradient"></div>
-							<div class="container">
-								<div class="col-md-12 col-md-offset-0 text-center slider-text">
-									<div class="slider-text-inner js-fullheight">
-										<div class="desc">
-											<p><span>Whispering Teaks</span></p>
-											<h2>Reserve Room for Family Vacation</h2>
-											<p>
-												<a href="#" class="btn btn-primary btn-lg">Book Now</a>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li style="background-image: url(images/slider2.jpg);">
-							<div class="overlay-gradient"></div>
-							<div class="container">
-								<div class="col-md-12 col-md-offset-0 text-center slider-text">
-									<div class="slider-text-inner js-fullheight">
-										<div class="desc">
-											<p><span>Whispering Teaks</span></p>
-											<h2>Make Your Vacation Comfortable</h2>
-											<p>
-												<a href="#" class="btn btn-primary btn-lg">Book Now</a>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-						<li style="background-image: url(images/slider3.jpg);">
-							<div class="overlay-gradient"></div>
-							<div class="container">
-								<div class="col-md-12 col-md-offset-0 text-center slider-text">
-									<div class="slider-text-inner js-fullheight">
-										<div class="desc">
-											<p><span>Whispering Teaks</span></p>
-											<h2>A Best Place To Enjoy Your Life</h2>
-											<p>
-												<a href="#" class="btn btn-primary btn-lg">Book Now</a>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-
-					</ul>
+<html>
+	<?php include'includes/head.php';?>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	  	<div id="Welcome">
+	  		<!---Start navigation Bar -->
+	    	<?php include'includes/navbar.php';?>
+			<!--- End Navigation Bar -->
+			<!--- Start Carousel -->
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+				    	<img class="d-block w-100 img-fluid img-slider" src="images/slider1.jpg" alt="First slide">
+				    	<div class="carousel-caption">
+						    <h2>Welcome!</h2>
+							<p>...</p>
+						</div>
+				    </div>
+				    <div class="carousel-item">
+				      	<img class="d-block w-100 img-fluid img-slider" src="images/slider2.jpg" alt="Second slide">
+				      	<div class="carousel-caption">
+						    <h2>Traditional Italian Cuisine</h2>
+							<p>...</p>
+						</div>
+				    </div>
+				    <div class="carousel-item">
+				      	<img class="d-block w-100 img-fluid img-slider" src="images/slider3.jpg" alt="Third slide">
+				      	<div class="carousel-caption">
+						    <h2>Selected Products</h2>
+							<p>...</p>
+						</div>
+				    </div>
 				</div>
-			</aside>
-			<div class="wrap">
-				<div class="container">
-					<div class="row">
-						<div id="availability">
-							<form action="#">
-
-								<div class="a-col">
-									<section>
-										<select class="cs-select cs-skin-border">
-											<option value="" disabled selected>Select Rooms</option>
-											<option value="email">Luxe Rooms</option>
-											<option value="twitter">Deluxe Rooms</option>
-											<option value="linkedin">Five Star Rooms</option>
-										</select>
-									</section>
-								</div>
-								<div class="a-col alternate">
-									<div class="input-field">
-										<label for="date-start">Check In</label>
-										<input type="text" class="form-control" id="date-start" />
-									</div>
-								</div>
-								<div class="a-col alternate">
-									<div class="input-field">
-										<label for="date-end">Check Out</label>
-										<input type="text" class="form-control" id="date-end" />
-									</div>
-								</div>
-								<div class="a-col action">
-									<a href="#">
-										<span>Check</span>
-										Availability
-									</a>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				</a>
 			</div>
-
-			<div id="fh5co-counter-section" class="fh5co-counters">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-3 text-center">
-							<span class="fh5co-counter js-counter" data-from="0" data-to="20356" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="fh5co-counter-label">User Access</span>
-						</div>
-						<div class="col-md-3 text-center">
-							<span class="fh5co-counter js-counter" data-from="0" data-to="15501" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="fh5co-counter-label">Hotels</span>
-						</div>
-						<div class="col-md-3 text-center">
-							<span class="fh5co-counter js-counter" data-from="0" data-to="8200" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="fh5co-counter-label">Transactions</span>
-						</div>
-						<div class="col-md-3 text-center">
-							<span class="fh5co-counter js-counter" data-from="0" data-to="8763" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="fh5co-counter-label">Rating &amp; Review</span>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div id="featured-hotel" class="fh5co-bg-color">
-				<div class="container">
-
-					<div class="row">
-						<div class="col-md-12">
-							<div class="section-title text-center">
-								<h2>Featured Hotels</h2>
-							</div>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="feature-full-1col">
-							<div class="image" style="background-image: url(images/hotel_feture_1.jpg);">
-								<div class="descrip text-center">
-									<p><small>For as low as</small><span>$100/night</span></p>
-								</div>
-							</div>
-							<div class="desc">
-								<h3>Deluxe Hotel</h3>
-								<p>Pellentesque habitant morbi tristique senectus et netus ett mauada fames ac turpis egestas. Etiam euismod tempor leo, in suscipit urna condimentum sed. Vivamus augue enim, consectetur ac interdum a, pulvinar ac massa. Nullam malesuada congue </p>
-								<p><a href="#" class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a></p>
-							</div>
-						</div>
-
-						<div class="feature-full-2col">
-							<div class="f-hotel">
-								<div class="image" style="background-image: url(images/hotel_feture_2.jpg);">
-									<div class="descrip text-center">
-										<p><small>For as low as</small><span>$99/night</span></p>
-									</div>
-								</div>
-								<div class="desc">
-									<h3>Hotel Bora</h3>
-									<p>Pellentesque habitant morbi tristique senectus et netus ett mauada fames ac turpis egestas. Etiam euismod tempor leo, 
-									in suscipit urna condimentum sed. </p>
-									<p><a href="#" class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a></p>
-								</div>
-							</div>
-							<div class="f-hotel">
-								<div class="image" style="background-image: url(images/hotel_feture_3.jpg);">
-									<div class="descrip text-center">
-										<p><small>For as low as</small><span>$99/night</span></p>
-									</div>
-								</div>
-								<div class="desc">
-									<h3>D’Morvie</h3>
-									<p>Pellentesque habitant morbi tristique senectus et netus ett mauada fames ac turpis egestas. Etiam euismod tempor leo, in suscipit urna condimentum sed. </p>
-									<p><a href="#" class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a></p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-
-			<div id="hotel-facilities">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="section-title text-center">
-								<h2>Hotel Facilities</h2>
-							</div>
-						</div>
-					</div>
-
-					<div id="tabs">
-						<?php include'includes/navbar.php';?>
-						<div class="tab-content-container">
-							<div class="tab-content active show" data-tab-content="tab1">
-								<div class="container">
-									<div class="row">
-										<div class="col-md-6">
-											<img src="images/tab_img_1.jpg" class="img-responsive" alt="Image">
-										</div>
-										<div class="col-md-6">
-											<span class="super-heading-sm">World Class</span>
-											<h3 class="heading">Restaurant</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias officia perferendis modi impedit, rem quasi veritatis. Consectetur obcaecati incidunt, quae rerum, accusamus sapiente fuga vero at. Quia, labore, reprehenderit illum dolorem quae facilis reiciendis quas similique totam sequi ducimus temporibus ex nemo, omnis perferendis earum fugit impedit molestias animi vitae.</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam neque blanditiis eveniet nesciunt, beatae similique doloribus, ex impedit rem officiis placeat dignissimos molestias temporibus, in! Minima quod, consequatur neque aliquam.</p>
-											<p class="service-hour">
-												<span>Service Hours</span>
-												<strong>7:30 AM - 8:00 PM</strong>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="tab-content" data-tab-content="tab2">
-								<div class="container">
-									<div class="row">
-										<div class="col-md-6">
-											<img src="images/tab_img_2.jpg" class="img-responsive" alt="Image">
-										</div>
-										<div class="col-md-6">
-											<span class="super-heading-sm">World Class</span>
-											<h3 class="heading">Bars</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias officia perferendis modi impedit, rem quasi veritatis. Consectetur obcaecati incidunt, quae rerum, accusamus sapiente fuga vero at. Quia, labore, reprehenderit illum dolorem quae facilis reiciendis quas similique totam sequi ducimus temporibus ex nemo, omnis perferendis earum fugit impedit molestias animi vitae.</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam neque blanditiis eveniet nesciunt, beatae similique doloribus, ex impedit rem officiis placeat dignissimos molestias temporibus, in! Minima quod, consequatur neque aliquam.</p>
-											<p class="service-hour">
-												<span>Service Hours</span>
-												<strong>7:30 AM - 8:00 PM</strong>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="tab-content" data-tab-content="tab3">
-								<div class="container">
-									<div class="row">
-										<div class="col-md-6">
-											<img src="images/tab_img_3.jpg" class="img-responsive" alt="Image">
-										</div>
-										<div class="col-md-6">
-											<span class="super-heading-sm">World Class</span>
-											<h3 class="heading">Pick Up</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias officia perferendis modi impedit, rem quasi veritatis. Consectetur obcaecati incidunt, quae rerum, accusamus sapiente fuga vero at. Quia, labore, reprehenderit illum dolorem quae facilis reiciendis quas similique totam sequi ducimus temporibus ex nemo, omnis perferendis earum fugit impedit molestias animi vitae.</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam neque blanditiis eveniet nesciunt, beatae similique doloribus, ex impedit rem officiis placeat dignissimos molestias temporibus, in! Minima quod, consequatur neque aliquam.</p>
-											<p class="service-hour">
-												<span>Service Hours</span>
-												<strong>7:30 AM - 8:00 PM</strong>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="tab-content" data-tab-content="tab4">
-								<div class="container">
-									<div class="row">
-										<div class="col-md-6">
-											<img src="images/tab_img_4.jpg" class="img-responsive" alt="Image">
-										</div>
-										<div class="col-md-6">
-											<span class="super-heading-sm">World Class</span>
-											<h3 class="heading">Swimming Pool</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias officia perferendis modi impedit, rem quasi veritatis. Consectetur obcaecati incidunt, quae rerum, accusamus sapiente fuga vero at. Quia, labore, reprehenderit illum dolorem quae facilis reiciendis quas similique totam sequi ducimus temporibus ex nemo, omnis perferendis earum fugit impedit molestias animi vitae.</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam neque blanditiis eveniet nesciunt, beatae similique doloribus, ex impedit rem officiis placeat dignissimos molestias temporibus, in! Minima quod, consequatur neque aliquam.</p>
-											<p class="service-hour">
-												<span>Service Hours</span>
-												<strong>7:30 AM - 8:00 PM</strong>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="tab-content" data-tab-content="tab5">
-								<div class="container">
-									<div class="row">
-										<div class="col-md-6">
-											<img src="images/tab_img_5.jpg" class="img-responsive" alt="Image">
-										</div>
-										<div class="col-md-6">
-											<span class="super-heading-sm">World Class</span>
-											<h3 class="heading">Spa</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias officia perferendis modi impedit, rem quasi veritatis. Consectetur obcaecati incidunt, quae rerum, accusamus sapiente fuga vero at. Quia, labore, reprehenderit illum dolorem quae facilis reiciendis quas similique totam sequi ducimus temporibus ex nemo, omnis perferendis earum fugit impedit molestias animi vitae.</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam neque blanditiis eveniet nesciunt, beatae similique doloribus, ex impedit rem officiis placeat dignissimos molestias temporibus, in! Minima quod, consequatur neque aliquam.</p>
-											<p class="service-hour">
-												<span>Service Hours</span>
-												<strong>7:30 AM - 8:00 PM</strong>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="tab-content" data-tab-content="tab6">
-								<div class="container">
-									<div class="row">
-										<div class="col-md-6">
-											<img src="images/tab_img_6.jpg" class="img-responsive" alt="Image">
-										</div>
-										<div class="col-md-6">
-											<span class="super-heading-sm">World Class</span>
-											<h3 class="heading">Gym</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias officia perferendis modi impedit, rem quasi veritatis. Consectetur obcaecati incidunt, quae rerum, accusamus sapiente fuga vero at. Quia, labore, reprehenderit illum dolorem quae facilis reiciendis quas similique totam sequi ducimus temporibus ex nemo, omnis perferendis earum fugit impedit molestias animi vitae.</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam neque blanditiis eveniet nesciunt, beatae similique doloribus, ex impedit rem officiis placeat dignissimos molestias temporibus, in! Minima quod, consequatur neque aliquam.</p>
-											<p class="service-hour">
-												<span>Service Hours</span>
-												<strong>7:30 AM - 8:00 PM</strong>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div id="testimonial">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="section-title text-center">
-								<h2>Happy Customer Says...</h2>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4">
-							<div class="testimony">
-								<blockquote>
-									&ldquo;If you’re looking for a top quality hotel look no further. We were upgraded free of charge to the Premium Suite, thanks so much&rdquo;
-								</blockquote>
-								<p class="author"><cite>John Doe</cite></p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="testimony">
-								<blockquote>
-									&ldquo;Me and my wife had a delightful weekend get away here, the staff were so friendly and attentive. Highly Recommended&rdquo;
-								</blockquote>
-								<p class="author"><cite>Rob Smith</cite></p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="testimony">
-								<blockquote>
-									&ldquo;If you’re looking for a top quality hotel look no further. We were upgraded free of charge to the Premium Suite, thanks so much&rdquo;
-								</blockquote>
-								<p class="author"><cite>Jane Doe</cite></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-			<div id="fh5co-blog-section">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="section-title text-center">
-								<h2>Our Blog</h2>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4">
-							<div class="blog-grid" style="background-image: url(images/image-1.jpg);">
-								<div class="date text-center">
-									<span>09</span>
-									<small>Aug</small>
-								</div>
-							</div>
-							<div class="desc">
-								<h3><a href="#">Most Expensive Hotel</a></h3>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="blog-grid" style="background-image: url(images/image-2.jpg);">
-								<div class="date text-center">
-									<span>09</span>
-									<small>Aug</small>
-								</div>
-							</div>
-							<div class="desc">
-								<h3><a href="#">1st Anniversary of Luxe Hotel</a></h3>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="blog-grid" style="background-image: url(images/image-3.jpg);">
-								<div class="date text-center">
-									<span>09</span>
-									<small>Aug</small>
-								</div>
-							</div>
-							<div class="desc">
-								<h3><a href="#">Discover New Adventure</a></h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<?php include 'includes/footer.php';?>
-			</div>
-			<!-- END fh5co-page -->
-
 		</div>
-		<!-- END fh5co-wrapper -->
-
-		<!-- Javascripts -->
-		<?php include 'includes/script.php';?>
-	</body>
-	</html>
+			<!--- End of Carousel -->
+			<!--- Restaurant-->
+		<div class="container">
+		 	<div class="row" id="Restaurant">
+	    		<div class="col navMenu">
+	     		 	<h2 class="text-center" >~ Restaurant ~</h2>
+	    		</div>
+  			</div>
+  			<div class="row bg-light" >
+  				<div class="col-md-6">
+  					<h3>Location</h3>
+  					<p>Thanks for stopping by. We are the last authentic Italian restaurant in Milan, serving delicious Italian cuisine cooked by the best chefs. It only takes a few minutes to browse through our website and check out our menu. We hope you'll soon join us for a superb Italian culinary experience.</p>
+  					<h5>A Unique Experience</h5>
+  					<p>Thanks for stopping by. We are the last authentic Italian restaurant in Milan, serving delicious Italian cuisine cooked by the best chefs. It only takes a few minutes to browse through our website and check out our menu. We hope you'll soon join us for a superb Italian culinary experience.</p>
+  				</div>
+  				<div class="col-md-6" data-aos="fade-up">
+  					<img class="img-fluid" src="images/location.jpg">
+  				</div>
+  			</div>
+  			<div class="row bg-light"><br></div>
+  			<div class="row bg-light">
+  				<div class="col-md-6 order-md-1 order-2" data-aos="fade-up">
+  					<img class="img-fluid " src="images/cuisine.jpg">
+  				</div>
+  				<div class="col-md-6 order-md-12 order-1">
+  					<h3>Cuisine</h3>
+  					<p>Thanks for stopping by. We are the last authentic Italian restaurant in Milan, serving delicious Italian cuisine cooked by the best chefs. It only takes a few minutes to browse through our website and check out our menu. We hope you'll soon join us for a superb Italian culinary experience.</p>
+  					<h5>A Unique Experience</h5>
+  					<p>Thanks for stopping by. We are the last authentic Italian restaurant in Milan, serving delicious Italian cuisine cooked by the best chefs. It only takes a few minutes to browse through our website and check out our menu. We hope you'll soon join us for a superb Italian culinary experience.</p>
+  				</div>
+  			</div>
+  			<!--- End of Restaurant -->
+  			<!--- Start of Menu-->
+			<div class="row" id="Menu">
+				<div class="col navMenu">
+	     		 	<h2 class="text-center" >~ Menu ~</h2>
+				</div>
+			</div>
+			<div class="row bg-light">
+				<div class="col-md-4" data-aos="slide-up">
+					<div class="card view zoom">
+  						<img class="card-img-top img-fluid " src="images/meat-menu.jpg">
+					  	<div class="card-body">
+					  		<h5 class="card-title">~ Meat Menu ~</h5>
+					    	<ul class="list-group list-group-flush">
+							    <li class="list-group-item">Bocconcini di carne in nido di sfoglia</li>
+							    <li class="list-group-item">Bruschette con maiale al curry</li>
+							 	<li class="list-group-item">Uova al prosciutto</li>
+							 	<li class="list-group-item">Vitello tonnato</li>
+							 	<li class="list-group-item">Fesa di tacchino marinata con olive</li>
+							</ul>
+					  	</div>
+					</div>
+				</div>
+				<div class="col-md-4" data-aos="slide-up">
+					<div class="card">
+  						<img class="card-img-top img-fluid " src="images/fish-menu.jpg">
+					  	<div class="card-body">
+					  		<h5 class="card-title">~ Fish Menu ~</h5>
+					    	<ul class="list-group list-group-flush">
+							    <li class="list-group-item">Carpaccio di polpo</li>
+							    <li class="list-group-item">Cozze al verde</li>
+							 	<li class="list-group-item">Cocktail di gamberi</li>
+							 	<li class="list-group-item">Risotto alla crema di scampi</li>
+							 	<li class="list-group-item">Ravioli di pesce con crema di scampi</li>
+							</ul>
+					  	</div>
+					</div>
+				</div>
+				<div class="col-md-4" data-aos="slide-up">
+					<div class="card">
+  						<img class="card-img-top img-fluid" src="images/menu-vegetarian.jpg">
+					  	<div class="card-body">
+					  		<h5 class="card-title">~ Vegetarian Menu ~</h5>
+					    	<ul class="list-group list-group-flush">
+							    <li class="list-group-item">Parmigiana di melanzane</li>
+							    <li class="list-group-item">Strudel con ricotta e spinaci</li>
+							 	<li class="list-group-item">Polpette di spinaci e ricotta</li>
+							 	<li class="list-group-item">Frittata di patate al forno</li>
+							 	<li class="list-group-item">Spaghetti con le polpettine vegetariane</li>
+							</ul>
+					  	</div>
+					</div>
+				</div>
+			</div>
+			<!--- End of Menu -->
+			<!--- Start of Reservation-->
+			<div class="row" id="Reservation">
+				<div class="col navMenu">
+	     		 	<h2 class="text-center">~ Reservation ~</h2>
+				</div>
+			</div>
+			<!-- <div class="row">
+				<div class=" col-lg-12 reserve-container" data-aos="fade-up">
+					<img class="img-fluid image-reserve" src="images/reserve.jpg">
+					<div class="reserve-text col-lg-12 ">
+						<h1 class="text-center">Timetables</h1>
+						<div class="row">
+							<div class="col-6">
+							   	<h2 class="text-center">Lunch</h2>
+							    <h5 class="text-center">12:00 - 15:00</h5>
+							</div>
+							<div class="col-6">
+							    <h2 class="text-center">Dinner</h2>
+							    <h5 class="text-center">19:30 - 23:30</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+			<br>
+			<div class="row bg-light">
+				<div class="col">
+					<form>
+						<div class="form-row">
+						  	<div class="form-group col-6">
+						  		<h3>Reserve</h3>
+						  		<label for="inputDate"> Date</label>
+						  		<input type="date" class="form-control" id="inputDate" placeholder="Data gg/mm/aaaa">
+						  	</div>
+						  	<div class="form-group col-6">
+						  		<h3>Details</h3>
+						  		<label for="inputName"> Name</label>
+						  		<input type="text" class="form-control" id="inputName" placeholder="Name">
+						  	</div>
+						  	<div class="form-group col-6">
+						  		<label for="inputTime"> Timetables</label>
+						  		<input type="time" class="form-control" id="inputTime" placeholder="Timetables">
+						  	</div>
+						  	<div class="form-group col-6">
+						  		<label for="inputEmail"> Email</label>
+						  		<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+						  	</div>
+						  	<div class="form-group col-6">
+						  		<label for="inputNumber"> Number of Guests</label>
+						  		<input type="number" class="form-control" id="inputNumber" placeholder="Number of Guests">
+						  	</div>
+						  	<div class="form-group col-6">
+						  		<label for="inputCel"> Phone</label>
+						  		<input type="tel" class="form-control" id="inputCel" placeholder="Phone">
+						  	</div>
+  							<div class="form-group col-12">
+  								<label for="inputComment"> Further requests</label>
+								<textarea class="form-control" rows="4" id="inputComment" placeholder="Further requests"></textarea>
+							</div>
+					 	</div>
+						<div class="row">
+					  		<div class="col-md-4 col-md-offset-4">
+					  			<button type="submit" class="btn btn-secondary btn-block">Reserve</button>
+					  		</div>
+					  	</div>
+					</form>
+				</div>
+			</div>
+			<!--- End of Reserve -->
+			<!--- Start of Our Location -->
+			<div class="row" id="OurLocation">
+				<div class="col navMenu">
+					<h2 class="text-center">~ Our Location ~</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div id="map" class="col-md-9 map"></div>
+				<div class="col-md-3">
+					<h3>Address:</h3>
+					<p>Viale Enrico Fermi, 20159 Milan, Mailand (Lombardia) </p>
+					<h3>Email:</h3>
+					<p>mail@example.com</p>
+				</div>
+			</div>
+			<!--- End of Our Location -->
+			<div class="row footer bg-light">
+				<div class="col">
+					<p class="text-center">Follow us: <a class="social-icon" href="https://www.facebook.com/rubiktechnologiesShpk/"><i class="fab fa-facebook"></i></a> <a class="social-icon" href="https://www.instagram.com/rubiktechnologies/"><i class="fab fa-instagram"></i></a></p>
+				</div>
+				<div class="col">
+					<p class="text-center">Copyright &copy; 2018</p>
+				</div>
+				<div class="col">
+					<p class="text-center">Powered by: <a href="https://rubik-technologies.com/">Rubik Technologies</a></p>
+				</div>
+			</div>
+		</div>
+			<?php include'includes/footer.php';?>
+		<?php include'includes/script.php';?>
+  	</body>
+</html>
